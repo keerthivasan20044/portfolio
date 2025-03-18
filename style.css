@@ -1,0 +1,133 @@
+*{
+    padding: 0%;
+margin: 0%;
+
+font-family: "Young Serif", serif;
+font-weight: lighter;
+}
+.section-1{
+    background-color: black;
+    color: white;
+    padding: 20px;
+
+}
+.section-1--contact{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.para::selection{
+    color:red;
+}
+
+.contain{
+    display:flex;
+    flex-direction:row;
+}
+
+
+.interest{
+    background-color:blueviolet;
+    color:white;
+     display:flex;
+     height:190px;
+     width:160px;
+     box-sizing: border-box;
+     display:inline-block;
+    margin:15px;
+     text-align:center;
+     border-radius: 15px;
+
+    
+}
+.my{
+    display:inline-block;
+}
+.web,.read,.cricket,.work{
+    list-style:none;
+    display:flex;
+    padding:5px;
+}
+.project{
+    height:190px;
+    width:70vw;
+    background-color: orangered;
+    color:white;
+    margin:15px;
+    box-sizing: border-box;
+    display:inline-block;
+    border-radius:15px;
+}
+.social{
+    height:100px;
+    width:100wh;
+    background-color:black;
+    color:white;
+
+}
+.insta{
+    text-decoration:none;
+    color:white;
+
+}
+.insta:hover{
+    color:aqua;
+}
+.section-one{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+.section-one__contact{
+    background-color: orangered;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+.section-one__name{
+    font-size: 45px;
+}
+.contact-form{
+    margin-top: 20px ;
+}
+.contact-form__input,.contact-form__textarea,.contact-form__submit{
+    margin-top: 10px;
+}
+.contact-form__input{
+    padding: 20px;
+    border: none;
+    border-bottom: solid black 1px;
+}
+.contact-form__textarea{
+    padding: 20px;
+    border:none ;
+    border:solid black 1px;
+}
+.contact-form__submit{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: orangered;
+    color: black;
+    border: none;
+}
+.section-five a{
+   
+    color: skyblue;
+    text-decoration: none;
+}
+.section-five{
+    background-color: black;
+    color: white;
+    padding:20px;
+}
+   
